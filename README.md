@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# 个人简历
+# 个人博客
 
 _🎉 基于 html 和 css 的博客 🎉_
 
