@@ -8,8 +8,7 @@
 
 _🎉 基于 html 和 css 的博客 🎉_
 
-<a href="http://gitee.com/li0802"><img src="https://img.shields.io/badge/%E6%9F%92%E6%9F%92-html-css?style=flat&logo=1DBAFF&labelColor=1DBAFF&color=FF951D
-" alt="图标"></a>
+<a href="http://gitee.com/li0802"><img src="https://img.shields.io/柒柒-html-css?style=flat&logo=1DBAFF&labelColor=1DBAFF&color=FF951D" alt="图标"></a>
 
 </div>
 
