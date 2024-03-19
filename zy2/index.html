@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>简历</title>
+    <title>个人简历</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./img/头像.jpg" type="image/x-icon">
 </head>
 <body>
     <!-- 头部导航栏 -->
     <div class="topbar">
         <!-- 版心 -->
         <div class="banxin">
-            <div class="top-nav clearfix">
+            <div class="top-nav clearfix" id="top">
                 <div class="top-logo leftfix">
                     <img src="./img/jl.png" alt="gitee" width="340" height="80" title="logo">
                 </div>
                 <div class="top-nav-two rightfix">
                     <ul>
-                        <li><a href="#">首页</a></li>
-                        <li><a href="#">仓库</a></li>
-                        <li><a href="#">联系</a></li>
+                        <li><a href="#top">首页</a></li>
+                        <li><a href="http://gitee.com/li0802/jianli" target="_blank">仓库</a></li>
+                        <li><a href="#grjl">介绍</a></li>
                     </ul>
                 </div>
             </div>
@@ -27,9 +28,9 @@
     </div>
 
     <div class="top-img">
-        <div class="banxin clearfix">
-            <div class="top-img-two-1 rightfix">
-                <p>个人简历</p>
+        <div class="banxin">
+            <div class="top-img-two-1">
+                <img src="./img/image.png" alt="jl">
             </div>
         </div>
     </div>
@@ -46,19 +47,44 @@
     <div class="content">
         <div class="banxin clearfix">
             <div class="content-left leftfix">
-                <div>1</div>
+                <div class="content-left-img">
+                    <img src="./img/头像.jpg" alt="波奇酱">
+                </div>
+                <div class="content-left-text">
+                    <p>李明灿</p>
+                    <p>邮箱：29********@qq.com</p>
+                    <p>手机号：131*******0</p>
+                    <p>学号：23*****8</p>
+                    <p>出生地：粤k</p>
+                    <p>不能认清自己的人，注定失败</p>
+                </div>
             </div>
 
             
-            <div class="content-right rightfix">2</div>
+            <div class="content-right rightfix" id="grjl">
+                <div class="content-right-two">
+                    <h1 class="content-right-title">《个人简历》</h1>
+                    <br>
+                    
+                    <div class="content-right-four">
+                       <h1>兴趣爱好：</h1><p>ACG、二刺猿、动漫、Genshin、崩坏3</p><br><br>
+                       <h1>专业技能：</h1><p>html、css、JavaScript、ps、ppt、linux</p><br><br>
+                       <h1>项目经验：</h1><p>QQ机器人、hexo</p>
+                    </div>
+    
+                </div>
+            </div>
         </div>
     </div>
 
-    <!--  -->
+    <!-- 描述 -->
     <div class="top-img">
         <div class="banxin clearfix">
             <div class="top-img-two rightfix">
-                1
+                <div class="bottom-3">
+                    <h1>个人描述</h1>
+                    <p>人尔女子</p>
+                </div>
             </div>
         </div>
     </div>
@@ -71,6 +97,10 @@
         </div>
     </div>
 
+
+    <div class="jianto">
+        <a href="#top"><img src="./img/箭头.png" alt=""></a>
+    </div>
 
 </body>
 </html>

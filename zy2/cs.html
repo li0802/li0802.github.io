@@ -3,28 +3,47 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dark Background Image</title>
+<title>Dynamic Image Shadow</title>
 <style>
-  body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/bqj.png'); /* 替换成你的背景图片链接 */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white; /* 文字颜色 */
-    font-size: 24px;
-    text-align: center;
+  .image-with-shadow {
+    display: inline-block;
+    position: relative;
+  }
+
+  .image-with-shadow img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* 图片圆角效果，可根据需要调整 */
+    transition: filter 0.3s ease; /* 添加过渡效果 */
+  }
+
+  .image-with-shadow:hover img {
+    filter: brightness(0.5); /* 鼠标悬停时变暗图片 */
+  }
+
+  .image-shadow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 设置环绕阴影效果 */
+    border-radius: 8px; /* 阴影部分也要使用圆角效果，与图片保持一致 */
+    z-index: -1; /* 将阴影放置在图片的下方 */
+    transition: opacity 0.3s ease; /* 添加过渡效果 */
+    opacity: 0; /* 初始状态下隐藏阴影 */
+  }
+
+  .image-with-shadow:hover .image-shadow {
+    opacity: 1; /* 鼠标悬停时显示阴影 */
   }
 </style>
 </head>
 <body>
-  <div>
-    <h1>Welcome to My Website</h1>
-    <p>This is a demo of a darkened background image.</p>
+  <div class="image-with-shadow">
+    <img src="./img/jl.png" alt="Dynamic Image Shadow">
+    <div class="image-shadow"></div>
   </div>
 </body>
 </html>
