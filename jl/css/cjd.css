@@ -1,0 +1,26 @@
+
+.content-cjd-table {
+    margin-top: 80px;
+    background-color: #ff50bf7b;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: #ff8fe955;
+}
+th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff24ed71;
+}
