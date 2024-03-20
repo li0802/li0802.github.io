@@ -1,0 +1,79 @@
+.content-lj-two {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ffffffc9;
+}
+
+button {
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 3px solid #cc99cc96;
+    color: #cc99cc96;
+    background-color: rgba(255, 255, 255, 0.758);
+}
+
+input {
+    border: 3px solid #cc99cc96; /* 边框样式 */
+    border-radius: 20px; /* 圆角 */
+    padding: 8px; /* 内边距 */
+    font-size: 20px; /* 字体大小 */
+    background-color: rgba(0, 191, 255, 0);
+    color: #cc99cc96;
+    box-shadow: 0 2px 4px #cc99cc96; 
+}
+
+input::placeholder {
+    color: #ffffff8c; /* 设置 placeholder 文本颜色 */
+}
+
+input:focus {
+    border-color: #ff50bf; /* 获取焦点时边框颜色 */
+    outline: none; /* 去除默认的外边框 */
+    box-shadow: 0 0 5px rgba(255, 80, 80, 0.5); /* 焦点时阴影效果 */
+}
+
+.content-lj-two-1 {
+    margin-top: 30px;
+    width: 600px;
+    height: 300px;
+    background-color: #ff50bf7b;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.content-lj-two-1 h1 {
+    margin-top: 50px;
+}
+
+.content-lj-two-1 input {
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+}
+
+
+.content-lj-two-2 {
+    margin-top: 30px;
+    width: 600px;
+    height: 300px;
+    background-color: #ff50bf7b;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.content-lj-two-2 h1 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.content-lj-two-2 input {
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+}
